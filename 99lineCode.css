@@ -1,0 +1,27 @@
+html{
+    background-color: rgb(41, 101, 112);
+}
+
+h1{
+    color: rgb(131, 201, 233);
+}
+
+.friend{
+    background-color: darkgrey;
+    color: rgb(41, 101, 112);
+}
+
+#h3{
+    text-transform: uppercase;
+}
+
+.button2 {
+    background-color: rgb(131, 201, 233);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+  }
+
+  #result{
+      display: block;
+  }

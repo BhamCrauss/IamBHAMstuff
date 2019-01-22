@@ -1,0 +1,21 @@
+h1 {
+    text-align: center;
+  }
+
+.cell {
+    height: 100px;
+    width: 30%;
+    background: lightblue;
+    float: left;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+    font-size: 80px;
+    text-align: center;
+}
+
+.container {
+    margin: 0 auto;
+    height: 50%;
+    width: 50%;
+}
