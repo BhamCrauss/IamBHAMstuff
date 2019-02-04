@@ -1,0 +1,47 @@
+html{
+    background-image: url('sky.jpg');
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+      
+}
+
+h1 {
+    text-align: center;
+    color: rgb(178, 120, 243);
+    font-family: cursive;
+    padding: 0%;
+    margin: 0%;
+  }
+
+  .button2 {
+    background-color: rgb(178, 120, 243);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+  }
+
+  form{
+    font-size: 200%;
+    font-family: cursive;
+    text-align: center;
+    color: rgb(178, 120, 243);
+    font-weight: bold; 
+  }
+ 
+  p{
+      margin-bottom: 0%;
+  }
+
+  #result{
+    display: block;
+    font-size: 120%;
+    font-family: cursive;
+    text-align: center;
+    color: rgb(178, 120, 243);
+    font-weight: bold;
+    background:  rgba(0, 0, 0, 0.5);
+    width: 550px;
+    position: absolute;
+    left: 28%;
+}
