@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+    
+  <link href="Portfolio.css" type="text/css" rel="stylesheet">
+  <head>
+        <style>
+        body {font-family: Arial, Helvetica, sans-serif;}
+        
+        /* The Modal (background) */
+        .modal {
+          display: none; /* Hidden by default */
+          position: fixed; /* Stay in place */
+          z-index: 1; /* Sit on top */
+          padding-top: 100px; /* Location of the box */
+          left: 0;
+          top: 0;
+          width: 100%; /* Full width */
+          height: 100%; /* Full height */
+          overflow: auto; /* Enable scroll if needed */
+          /* Black w/ opacity */
+        }
+        
+        /* Modal Content */
+        .modal-content {
+          margin: auto;
+          padding: 20px;
+          width: 80%;
+        }
+        
+        /* The Close Button */
+        .close {
+          color:black;
+          font-size: 28px;
+          font-weight: bold;
+          position: absolute;
+          top: 30%;
+          left: 90%;
+          opacity: 0.5;
+        }
+        
+        .close:hover,
+        .close:focus {
+          color: #000;
+          text-decoration: none;
+          cursor: pointer;
+        }
+        </style>
+        </head>
+<body>
+    <div></div>
+      </div>
+      <div class="bgimg w3-display-container w3-text-white"></div>
+      <p class="button1">
+      <button class="button2" onclick="window.open(href = 'https://github.com/BhamCrauss')" taget="_blank">GitHub</button><br><br>
+      <button class="button2" onClick = "window.open('Resume (1_15_19).pdf')">Resume</button><br><br>
+      <button class="button2" onclick="window.open(href = 'https://www.linkedin.com/in/chris-alexander-875483179/')" 
+      taget="_blank">LinkedIn</button><br><br>
+
+
+
+
+
+      <button id = "myBtn" class="button2">Message Me</button></p>
+      <!-- The Modal -->
+      <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <p class="form">
+            <form class="form">
+                    Some way to send me a message!<br>
+                    Include your email address!<br><br>
+                   Name:<input type="text"><br><br>
+                   Email:<input type="text"><br><br>
+                   Message:<input width="100px" type="text" style="width: 285px;">
+            </form>
+        
+          </p>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <p class="name">  <img src="me.jpg" alt="Me" height= "50%"; width= "50%"; ><br>
+        <span style="font-size: 50px;">Chris Alexander</span>
+         <span style="font-size: 35px;"></span><br>~ a small cog in the technological movement that connects us all~<br>
+        
+        </p>
+      <div >
+        <p class="stuff" font weight= "bold" font size = "35px"> This is some stuff about me.<br> 
+            This is some more stuff about me.<br> 
+            This is EVEN more stuff about me.</p>
+      </div>
+    </div>
+
+
+    <script>
+            // Get the modal
+            var modal = document.getElementById('myModal');
+            
+            // Get the button that opens the modal
+            var btn = document.getElementById("myBtn");
+            
+            // Get the <span> element that closes the modal
+            var span = document.getElementsByClassName("close")[0];
+            
+            // When the user clicks the button, open the modal 
+            btn.onclick = function() {
+              modal.style.display = "block";
+            }
+            
+            // When the user clicks on <span> (x), close the modal
+            span.onclick = function() {
+              modal.style.display = "none";
+            }
+            
+            // When the user clicks anywhere outside of the modal, close it
+            window.onclick = function(event) {
+              if (event.target == modal) {
+                modal.style.display = "none";
+              }
+            }
+            </script>
+
+    </body>
+
+</html>
